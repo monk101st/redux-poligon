@@ -15,7 +15,7 @@ const AddTodo = ({ addTodo }) => {
     <div>
       <input type="text" ref={(node) => (input = node)} />
       <button type="submit" onClick={handleSubmit}>
-        Dodaj zadanie
+        Dodaj zadanie !!!
       </button>
     </div>
   );
